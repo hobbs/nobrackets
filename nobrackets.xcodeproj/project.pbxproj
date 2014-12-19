@@ -16,6 +16,7 @@
 		A46E47CE1A436AC000AFCD55 /* WikiaEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46E47CD1A436AC000AFCD55 /* WikiaEditorView.swift */; };
 		A46E47D31A4372A200AFCD55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46E47D21A4372A200AFCD55 /* Main.storyboard */; };
 		A46E47D71A43A92B00AFCD55 /* MediaWiki.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46E47D61A43A92B00AFCD55 /* MediaWiki.swift */; };
+		A46E47D91A43B42C00AFCD55 /* Parsoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46E47D81A43B42C00AFCD55 /* Parsoid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		A46E47CD1A436AC000AFCD55 /* WikiaEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiaEditorView.swift; sourceTree = "<group>"; };
 		A46E47D21A4372A200AFCD55 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
 		A46E47D61A43A92B00AFCD55 /* MediaWiki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaWiki.swift; sourceTree = "<group>"; };
+		A46E47D81A43B42C00AFCD55 /* Parsoid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parsoid.swift; sourceTree = "<group>"; };
 		A72978C053C26540A18E5D82 /* Pods-nobrackets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nobrackets.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nobrackets/Pods-nobrackets.debug.xcconfig"; sourceTree = "<group>"; };
 		AA5C966C475E2213D85570CC /* Pods-nobrackets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nobrackets.release.xcconfig"; path = "Pods/Target Support Files/Pods-nobrackets/Pods-nobrackets.release.xcconfig"; sourceTree = "<group>"; };
 		E6821266D7FEB59E87483428 /* libPods-nobrackets.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nobrackets.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				A46E47D61A43A92B00AFCD55 /* MediaWiki.swift */,
+				A46E47D81A43B42C00AFCD55 /* Parsoid.swift */,
 			);
 			name = api;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				A46E47A81A435C2E00AFCD55 /* AppDelegate.swift in Sources */,
 				A46E47D71A43A92B00AFCD55 /* MediaWiki.swift in Sources */,
 				A46E47CE1A436AC000AFCD55 /* WikiaEditorView.swift in Sources */,
+				A46E47D91A43B42C00AFCD55 /* Parsoid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

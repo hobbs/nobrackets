@@ -26,16 +26,6 @@ class EditorViewController: ZSSRichTextEditor {
         // set the initial HTML for the editor
         self.setHTML(html)
         
-        let manager = AFHTTPRequestOperationManager()
-        let params = [ "action" : "edit",
-            "title" : "About_this_hack",
-            "text" : "==Edit from ios #2==",
-            "format" : "json",
-            "token":"+\\" ]
-        
-        let baseUrl = "http://nobracketshack.wikia.com/api.php"
-        
-                
     }
 
     override func didReceiveMemoryWarning() {

@@ -10,20 +10,26 @@ import Foundation
 
 class MediaWiki {
     
-    func articleDetails( base: String, title: String, success: (NSDictionary) -> Void, error: (NSError) -> Void) {
+    class func articleDetails( base: String, title: String, success: (NSDictionary) -> Void, error: ((NSError) -> Void)?) {
         
-        let params = [ "action" : "query", "prop" : "info", "titles" : title, "intoken" : "edit"]
+        let params = [ "action" : "query",
+            "prop" : "info",
+            "titles" : title,
+            "format" : "json",
+            "intoken" : "edit"]
         let manager = AFHTTPRequestOperationManager()
         
         manager.GET(base, parameters: params as NSDictionary, success: { (operation, res) -> Void in
             success(res as NSDictionary)
         }) { (operation, err) -> Void in
-            error(err)
+            if error != nil {
+                error!(err)
+            }
         }
     }
     
-    func updateArticle( base: String, title: String, text: String, token: String,
-        success: (NSDictionary) -> Void, error: (NSError) -> Void) {
+    class func updateArticle( base: String, title: String, text: String, token: String,
+        success: (NSDictionary) -> Void, error: ((NSError) -> Void)?) {
             
         let manager = AFHTTPRequestOperationManager()
         let params = [ "action" : "edit",
@@ -33,10 +39,12 @@ class MediaWiki {
             "token":token ]
             
         manager.POST(base, parameters: params as NSDictionary, success: { (operation, res) -> Void in
-            <#code#>
-        }, failure: <#((AFHTTPRequestOperation!, NSError!) -> Void)!##(AFHTTPRequestOperation!, NSError!) -> Void#>)
-            
-            
+            success(res as NSDictionary)
+        }, failure: { (operation, err) -> Void in
+            if error != nil {
+                error!(err)
+            }
+        })
     }
 }
 
