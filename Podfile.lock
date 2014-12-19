@@ -20,14 +20,20 @@ PODS:
   - AFNetworking/UIKit (2.5.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - NSString-UrlEncode (2.0.0)
+  - NSString_stripHtml (0.1.0)
   - ZSSRichTextEditor (0.5.2.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5.0)
+  - NSString-UrlEncode
+  - NSString_stripHtml
   - ZSSRichTextEditor (= 0.5.2.1)
 
 SPEC CHECKSUMS:
   AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
+  NSString-UrlEncode: 884ff989b77aeec0fe25474edc32ad7e31ffc5ff
+  NSString_stripHtml: 47fc2157b90e51bb338577780a18564a7195a47b
   ZSSRichTextEditor: 742425fd433c973ab9145922629487d5623d68c3
 
 COCOAPODS: 0.35.0

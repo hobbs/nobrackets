@@ -4,3 +4,5 @@
 
 #import <ZSSRichTextEditor/ZSSRichTextEditor.h>
 #import <AFNetworking/AFNetworking.h>
+#import <NSString-UrlEncode/NSString+URLEncode.h>
+#import <NSString_stripHtml/NSString_stripHtml.h>

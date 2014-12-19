@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-nobrackets-NSString-UrlEncode.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-nobrackets-NSString_stripHtml.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-nobrackets-ZSSRichTextEditor.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>33B33CF1D55CD40111590F40</key>
+		<key>0D5EEE8EF6FE5990C62F00AB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>956AAD121A10DC9B4274823C</key>
+		<key>2FB51F7538BD4977B7BCE644</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E8A78F3D0762154242D326BB</key>
+		<key>645ACF44777FF1B7745B4BBC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78D5A785B7483429B3DE7988</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>855D5208261013390B9493A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

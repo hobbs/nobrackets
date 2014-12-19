@@ -11,6 +11,9 @@ import XCTest
 
 class nobracketsTests: XCTestCase {
     
+    //var parsoid = Parsoid("http://nobracketshack.wikia.com/api.php", "Test_case_page")
+    
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.

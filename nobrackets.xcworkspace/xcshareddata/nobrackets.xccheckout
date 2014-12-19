@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C1367B6F-DF0A-429D-863A-D72A0C45AFF5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>nobrackets</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>66EB44F36F1196F4AF8E072D68C1EFD1D113FC93</key>
+		<string>github.com:hobbs/nobrackets.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>nobrackets.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>66EB44F36F1196F4AF8E072D68C1EFD1D113FC93</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:hobbs/nobrackets.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>66EB44F36F1196F4AF8E072D68C1EFD1D113FC93</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>66EB44F36F1196F4AF8E072D68C1EFD1D113FC93</string>
+			<key>IDESourceControlWCCName</key>
+			<string>nobrackets</string>
+		</dict>
+	</array>
+</dict>
+</plist>

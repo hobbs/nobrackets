@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E8A78F3D0762154242D326BB"
+               BlueprintIdentifier = "78D5A785B7483429B3DE7988"
                BuildableName = "libPods-nobrackets-ZSSRichTextEditor.a"
                BlueprintName = "Pods-nobrackets-ZSSRichTextEditor"
                ReferencedContainer = "container:Pods.xcodeproj">

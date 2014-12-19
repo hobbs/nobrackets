@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0D5EEE8EF6FE5990C62F00AB"
-               BuildableName = "libPods-nobrackets.a"
-               BlueprintName = "Pods-nobrackets"
+               BlueprintIdentifier = "2FB51F7538BD4977B7BCE644"
+               BuildableName = "libPods-nobrackets-NSString-UrlEncode.a"
+               BlueprintName = "Pods-nobrackets-NSString-UrlEncode"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

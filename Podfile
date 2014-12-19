@@ -5,6 +5,8 @@ target 'nobrackets' do
 
 pod 'AFNetworking', '~> 2.5.0'
 pod 'ZSSRichTextEditor', '0.5.2.1'
+pod 'NSString-UrlEncode'
+pod 'NSString_stripHtml'
 
 end
 

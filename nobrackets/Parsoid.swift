@@ -22,7 +22,7 @@ class Parsoid {
     }
 
     func getURL() -> String {
-        return PARSOID_URL + base.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())! + "/" + self.title
+        return PARSOID_URL + base.URLEncode() + "/" + self.title
     }
     
     func getHTML(rev: Int, success: (String) -> Void, error: ((NSError) -> Void)?) {
@@ -43,12 +43,25 @@ class Parsoid {
         })
     }
     
-    class func getWikiText(html: String, rev: Int, success: (String) -> Void, error: ((NSError) -> Void)?) {
+    func getWikiText(html: String, rev: Int, success: (String) -> Void, error: ((NSError) -> Void)?) {
         
         let manager = AFHTTPRequestOperationManager()
         manager.responseSerializer = AFHTTPResponseSerializer()
         
 
+        let params = [ "html" : html, "oldid" : rev ]
+        
+        manager.POST(getURL(), parameters: params as NSDictionary, success: { (operation, res) -> Void in
+            
+            success(NSString(data: res as NSData, encoding: NSUTF8StringEncoding)!)
+            
+            }, failure: { (operation, err) -> Void in
+                if error != nil {
+                    error!(err)
+                }
+        })
+        
+        
     }
     
     
